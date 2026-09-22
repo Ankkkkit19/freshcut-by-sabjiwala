@@ -21,9 +21,9 @@ export type StoreSettings = {
 
 export const DEFAULT_SETTINGS: StoreSettings = {
   storeName: "Sabjiwala",
-  storePhone: "+912266778899",
-  whatsappNumber: "+919876500011",
-  supportEmail: "care@freshcut.local",
+  storePhone: "+91 7632 932 591",
+  whatsappNumber: "+91 7632 932 591",
+  supportEmail: "mukulgupta763293@gmail.com",
   minOrderValue: 99,
   freeDeliveryThreshold: 499,
   defaultDeliveryFee: 29,

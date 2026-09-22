@@ -138,7 +138,7 @@ export function StoreFooter({
             </li>
             <li className="flex items-start gap-2">
               <MapPin className="mt-0.5 h-4 w-4 text-brand-600" />
-              <span>Cut kitchen: Andheri West, Mumbai 400058</span>
+              <span>Cut kitchen: Rajendra nagar Terminal Patna Bihar</span>
             </li>
           </ul>
         </div>
