@@ -49,18 +49,18 @@ export function AddressForm({
     ...EMPTY,
     ...(initial
       ? {
-          fullName: initial.fullName ?? "",
-          phone: initial.phone ?? "",
-          line1: initial.line1 ?? "",
-          street: initial.street ?? "",
-          area: initial.area ?? "",
-          city: initial.city ?? "",
-          state: initial.state ?? "Maharashtra",
-          pincode: initial.pincode ?? "",
-          landmark: initial.landmark ?? "",
-          type: initial.type ?? "HOME",
-          isDefault: initial.isDefault ?? false,
-        }
+        fullName: initial.fullName ?? "",
+        phone: initial.phone ?? "",
+        line1: initial.line1 ?? "",
+        street: initial.street ?? "",
+        area: initial.area ?? "",
+        city: initial.city ?? "",
+        state: initial.state ?? "Maharashtra",
+        pincode: initial.pincode ?? "",
+        landmark: initial.landmark ?? "",
+        type: initial.type ?? "HOME",
+        isDefault: initial.isDefault ?? false,
+      }
       : {}),
   });
 
@@ -123,7 +123,7 @@ export function AddressForm({
             id="area"
             value={values.area}
             onChange={(event) => update("area", event.target.value)}
-            placeholder="Andheri West"
+            placeholder="Kankarbagh"
             required
           />
         </Field>
