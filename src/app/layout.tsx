@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: "FreshCut by Sabjiwala",
     description: "Fresh vegetables. Fresh cuts. Delivered fresh.",
     type: "website",
-    images: ["/images/hero-basket.jpg"],
+    images: ["https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"],
   },
   robots: { index: true, follow: true },
 };

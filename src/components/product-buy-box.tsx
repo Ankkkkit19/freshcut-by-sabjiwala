@@ -22,7 +22,7 @@ export type BuyBoxVariant = {
 };
 
 export function ProductGallery({ images, name }: { images: string[]; name: string }) {
-  const usable = images.length > 0 ? images : ["/images/hero-basket.jpg"];
+  const usable = images.length > 0 ? images : ["https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"];
   const [active, setActive] = useState(0);
   return (
     <div className="space-y-3">

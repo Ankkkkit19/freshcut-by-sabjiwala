@@ -123,7 +123,7 @@ export default async function HomePage() {
           </div>
           <div className="relative h-64 w-full sm:h-80 lg:h-full lg:min-h-[420px]">
             <Image
-              src="/images/hero-basket.jpg"
+              src="https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
               alt="FreshCut basket of fresh vegetables and fruits"
               fill
               priority
