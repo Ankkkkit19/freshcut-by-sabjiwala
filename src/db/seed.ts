@@ -69,13 +69,13 @@ type SeedProduct = {
   slug: string;
   category: string;
   type:
-    | "VEGETABLE"
-    | "FRUIT"
-    | "LEAFY_GREENS"
-    | "READY_TO_COOK"
-    | "DAIRY"
-    | "SALAD"
-    | "GROCERY";
+  | "VEGETABLE"
+  | "FRUIT"
+  | "LEAFY_GREENS"
+  | "READY_TO_COOK"
+  | "DAIRY"
+  | "SALAD"
+  | "GROCERY";
   short: string;
   description: string;
   images: string[];
@@ -393,11 +393,10 @@ const PRODUCT_SEED: SeedProduct[] = [
 ];
 
 const ZONES = [
-  { pincode: "400058", area: "Andheri West", city: "Mumbai", state: "Maharashtra", deliveryFee: 29, minOrderValue: 99, freeDeliveryThreshold: 499, etaMinutes: 40 },
-  { pincode: "400001", area: "Fort", city: "Mumbai", state: "Maharashtra", deliveryFee: 39, minOrderValue: 149, freeDeliveryThreshold: 599, etaMinutes: 55 },
-  { pincode: "560034", area: "Koramangala", city: "Bengaluru", state: "Karnataka", deliveryFee: 29, minOrderValue: 99, freeDeliveryThreshold: 449, etaMinutes: 35 },
-  { pincode: "560001", area: "MG Road", city: "Bengaluru", state: "Karnataka", deliveryFee: 35, minOrderValue: 129, freeDeliveryThreshold: 549, etaMinutes: 50 },
-  { pincode: "110016", area: "Hauz Khas", city: "New Delhi", state: "Delhi", deliveryFee: 25, minOrderValue: 99, freeDeliveryThreshold: 399, etaMinutes: 45 },
+  { pincode: "800001", area: "Patna GPO", city: "Patna", state: "Bihar", deliveryFee: 29, minOrderValue: 99, freeDeliveryThreshold: 499, etaMinutes: 40 },
+  { pincode: "800020", area: "Kankarbagh", city: "Patna", state: "Bihar", deliveryFee: 39, minOrderValue: 149, freeDeliveryThreshold: 599, etaMinutes: 55 },
+  { pincode: "800013", area: "Patliputra", city: "Patna", state: "Bihar", deliveryFee: 29, minOrderValue: 99, freeDeliveryThreshold: 449, etaMinutes: 35 },
+  { pincode: "800014", area: "Sheikhpura", city: "Patna", state: "Bihar", deliveryFee: 35, minOrderValue: 129, freeDeliveryThreshold: 549, etaMinutes: 50 },
 ];
 
 const COUPONS = [
